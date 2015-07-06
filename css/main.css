@@ -1,0 +1,428 @@
+/*
+ * davidkenny.me - last updated 26.10.2014
+ */
+
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #4f4f4f;
+}
+
+body {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/*
+ * Remove text-shadow in selection highlight
+ * These selection rule sets have to be separate.
+ */
+
+::-moz-selection {
+    color: #fff;
+    background: #e16633;
+    text-shadow: none;
+}
+
+::selection {
+    color: #fff;
+    background: #e16633;
+    text-shadow: none;
+}
+
+/* ==========================================================================
+   Styles
+   ========================================================================== */
+
+body {
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+    color: #4f4f4f;
+    background: #f7f6f5;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: #707990;
+    border-bottom: 3px solid transparent;
+}
+
+a:hover{
+    color:#101F46;
+    border-bottom: 3px solid #e6e6e6;
+    }
+
+a.fancy-link {
+    border-bottom: none;
+    color: #e16633;
+}
+
+a.fancy-link span{
+    -webkit-transition:all 300ms cubic-bezier(0.175,.885,.32,1.275) 0;
+    -moz-transition:all 300ms cubic-bezier(0.175,.885,.32,1.275) 0s;
+    -o-transition:all 300ms cubic-bezier(0.175,.885,.32,1.275) 0;
+    transition:all 300ms cubic-bezier(0.175,.885,.32,1.275) 0;
+    overflow:hidden;
+    position:absolute;
+    left:0;
+    bottom:-2px;
+    display:block;
+    width:0;
+    height:3px;
+    max-height:3px;
+    background:#e16633;
+}
+
+a.fancy-link:hover  {
+    border-bottom: none;
+}
+
+a.fancy-link:hover span{
+    width:100%;
+}
+
+h1	{
+	margin:2em 0 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #a6a4a1;
+    font-weight: 700;
+    font-size: .6em;
+    letter-spacing: 1px;
+    margin: 0 0 2em;
+}
+
+h2 span	{
+	color: #e16633;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/*HEADER*/
+header, #main, footer	{
+	max-width: 100%;
+	margin: 0;
+    padding: 2em 1.25em;
+}
+
+header p	{
+	margin:0;
+}
+
+/*MAIN*/
+#about, .work	{
+	margin: 0 0 2em;
+}
+
+.work ul li {
+	margin: 0 0 .5em;
+}
+
+.work ul li a {
+	display: block;
+	padding:1em;
+	background: RGBa(0, 0, 0, 0.05);
+	border-bottom: none;
+}
+
+.work li a h3    {
+	color: #e16633;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: .9em;
+}
+
+.work li.behance-link a h3    {
+	color: #1769ff;
+}
+
+.work li.dribbble-link a h3    {
+	color: #ea4c89;
+}
+
+.work ul li a p	{
+	padding:0.5em 0 0;
+	margin:0;
+	font-size: .85em;
+}
+
+.work li a:hover p	{
+	color: #e16633;
+}
+
+.work li.behance-link a:hover p	{
+	color: #1769ff;
+}
+
+.work li.dribbble-link a:hover p	{
+	color: #ea4c89;
+}
+
+/*FOOTER*/
+footer ul li {
+	text-align: center;
+	font-size: .75em;
+	width:25%;
+    float: left;
+    padding: 0;
+}
+
+footer p {
+	text-align: center;
+	font-size: .5em;
+    font-weight: 700;
+    color: #a6a4a1;
+    text-transform: uppercase;
+    margin: 2em 0 0;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 420px) {
+
+	.work ul li a:after {
+		position: absolute;
+		top:0;
+		right:0;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 1em 1em 0;
+		border-color: transparent #707990 transparent transparent;
+	}
+
+	.work ul li a:hover:after {
+		border-color: transparent #e16633 transparent transparent;
+	}
+
+	.work ul li.behance-link a:hover:after {
+		border-color: transparent #1769ff transparent transparent;
+	}
+
+	.work ul li.dribbble-link a:hover:after {
+		border-color: transparent #ea4c89 transparent transparent;
+	}
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape)	{
+
+	header, footer	{
+		padding-top: 0;
+	}
+
+	header h1	{
+		margin-top: .5em;
+	}
+
+}
+
+@media only screen and (min-width: 640px) {
+
+.work ul li a:after {
+		display: none;
+	}
+
+	.work ul li a {
+		display: inline-block;
+		padding: 0;
+		background: none;
+	}
+
+	.work li a h3    {
+		float:left;
+		background: #e16633;
+		padding:0.5em 0.75em;
+    	font-size: 1em;
+    	color: #fff;
+	}
+
+	.work li.behance-link a h3    {
+		color:#fff;
+		background: #1769ff;
+	}
+
+	.work li.dribbble-link a h3    {
+		color:#fff;
+		background: #ea4c89;
+	}
+
+	.work ul li a p	{
+		float: left;
+		padding:0.725em 0.75em;
+
+	}
+
+	.work li a:hover h3	{
+		margin-left: .5em;
+	}
+
+	footer ul li {
+		text-align: left;
+		font-size: .8em;
+		width:auto;
+		float: left;
+		padding: 0 1.5em 0 0;
+	}
+
+	footer p {
+		text-align: left;
+		font-size: .5em;
+	}
+
+}
+
+@media only screen and (min-width: 900px) {
+
+	body {
+    	font-size: 1.45em;
+	}
+
+	header, #main, footer	{
+		max-width:900px;
+		margin: 0 0 0 3em;
+		padding: 2em 1.25em;
+	}
+
+	footer ul li {
+		font-size: .8em;
+		padding: 0 1.75em 0 0;
+	}
+
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
