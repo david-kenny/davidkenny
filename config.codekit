@@ -11,60 +11,43 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/apple-touch-icon-114x114-precomposed.png": {
-		"fileType": 32768,
+	"\/_css\/animate.min.css": {
+		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1156,
-		"inputAbbreviatedPath": "\/apple-touch-icon-114x114-precomposed.png",
-		"outputAbbreviatedPath": "\/apple-touch-icon-114x114-precomposed.png",
+		"inputAbbreviatedPath": "\/_css\/animate.min.css",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/apple-touch-icon-144x144-precomposed.png": {
-		"fileType": 32768,
+	"\/_css\/main.css": {
+		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1249,
-		"inputAbbreviatedPath": "\/apple-touch-icon-144x144-precomposed.png",
-		"outputAbbreviatedPath": "\/apple-touch-icon-144x144-precomposed.png",
+		"inputAbbreviatedPath": "\/_css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/apple-touch-icon-57x57-precomposed.png": {
-		"fileType": 32768,
+	"\/_css\/normalize.css": {
+		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1026,
-		"inputAbbreviatedPath": "\/apple-touch-icon-57x57-precomposed.png",
-		"outputAbbreviatedPath": "\/apple-touch-icon-57x57-precomposed.png",
+		"inputAbbreviatedPath": "\/_css\/normalize.css",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/apple-touch-icon-72x72-precomposed.png": {
-		"fileType": 32768,
+	"\/_js\/vendor\/modernizr-min.js": {
+		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1061,
-		"inputAbbreviatedPath": "\/apple-touch-icon-72x72-precomposed.png",
-		"outputAbbreviatedPath": "\/apple-touch-icon-72x72-precomposed.png",
+		"inputAbbreviatedPath": "\/_js\/vendor\/modernizr-min.js",
+		"outputAbbreviatedPath": "\/_js\/vendor\/min\/modernizr-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/apple-touch-icon-precomposed.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1026,
-		"inputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
-		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/apple-touch-icon.png": {
 		"fileType": 32768,
@@ -77,20 +60,33 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/css\/main.css": {
-		"fileType": 16,
+	"\/favicon.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
+		"initialSize": 2252,
+		"inputAbbreviatedPath": "\/favicon.jpg",
+		"outputAbbreviatedPath": "\/favicon.jpg",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
-	"\/css\/normalize.css": {
-		"fileType": 16,
+	"\/favicon.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/normalize.css",
+		"initialSize": 3365,
+		"inputAbbreviatedPath": "\/favicon.png",
+		"outputAbbreviatedPath": "\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/ie7.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/ie7.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -104,49 +100,27 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/js\/main.js": {
-		"fileType": 64,
+	"\/tile-wide.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/main.js",
-		"outputAbbreviatedPath": "\/js\/min\/main-min.js",
+		"initialSize": 1854,
+		"inputAbbreviatedPath": "\/tile-wide.png",
+		"outputAbbreviatedPath": "\/tile-wide.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"processed": 0
 		},
-	"\/js\/plugins.js": {
-		"fileType": 64,
+	"\/tile.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/plugins.js",
-		"outputAbbreviatedPath": "\/js\/min\/plugins-min.js",
+		"initialSize": 3482,
+		"inputAbbreviatedPath": "\/tile.png",
+		"outputAbbreviatedPath": "\/tile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/vendor\/jquery-1.9.1.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/jquery-1.9.1.min.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/min\/jquery-1.9.1.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/vendor\/modernizr-2.6.2.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/modernizr-2.6.2.min.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/min\/modernizr-2.6.2.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"processed": 0
 		}
 	},
 "hooks": [
