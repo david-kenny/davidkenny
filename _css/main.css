@@ -112,7 +112,7 @@ h2 {
     font-weight: 700;
     font-size: .6em;
     letter-spacing: 1px;
-    margin: 0 0 2em;
+    margin: 0 0 1.5em;
 }
 
 h2 span	{
@@ -137,22 +137,22 @@ header p	{
 }
 
 /*MAIN*/
-#about, .work	{
+#services, #about, #work	{
 	margin: 0 0 2em;
 }
 
-.work ul li {
+#work ul li {
 	margin: 0 0 .5em;
 }
 
-.work ul li a {
+#work ul li a {
 	display: block;
 	padding:1em;
 	background: RGBa(0, 0, 0, 0.05);
 	border-bottom: none;
 }
 
-.work li a h3    {
+#work li a h3    {
 	color: #e16633;
     margin: 0;
     padding: 0;
@@ -160,30 +160,14 @@ header p	{
     font-size: .9em;
 }
 
-.work li.behance-link a h3    {
-	color: #1769ff;
-}
-
-.work li.dribbble-link a h3    {
-	color: #ea4c89;
-}
-
-.work ul li a p	{
+#work ul li a p	{
 	padding:0.5em 0 0;
 	margin:0;
 	font-size: .85em;
 }
 
-.work li a:hover p	{
+#work li a:hover p	{
 	color: #e16633;
-}
-
-.work li.behance-link a:hover p	{
-	color: #1769ff;
-}
-
-.work li.dribbble-link a:hover p	{
-	color: #ea4c89;
 }
 
 /*FOOTER*/
@@ -241,7 +225,7 @@ footer p {
 
 @media only screen and (min-width: 420px) {
 
-	.work ul li a:after {
+	#work ul li a:after {
 		position: absolute;
 		top:0;
 		right:0;
@@ -252,16 +236,8 @@ footer p {
 		border-color: transparent #707990 transparent transparent;
 	}
 
-	.work ul li a:hover:after {
+	#work ul li a:hover:after {
 		border-color: transparent #e16633 transparent transparent;
-	}
-
-	.work ul li.behance-link a:hover:after {
-		border-color: transparent #1769ff transparent transparent;
-	}
-
-	.work ul li.dribbble-link a:hover:after {
-		border-color: transparent #ea4c89 transparent transparent;
 	}
 
 }
@@ -283,17 +259,17 @@ and (orientation : landscape)	{
 
 @media only screen and (min-width: 640px) {
 
-.work ul li a:after {
+#work ul li a:after {
 		display: none;
 	}
 
-	.work ul li a {
+	#work ul li a {
 		display: inline-block;
 		padding: 0;
 		background: none;
 	}
 
-	.work li a h3    {
+	#work li a h3    {
 		float:left;
 		background: #e16633;
 		padding:0.5em 0.75em;
@@ -301,23 +277,13 @@ and (orientation : landscape)	{
     	color: #fff;
 	}
 
-	.work li.behance-link a h3    {
-		color:#fff;
-		background: #1769ff;
-	}
-
-	.work li.dribbble-link a h3    {
-		color:#fff;
-		background: #ea4c89;
-	}
-
-	.work ul li a p	{
+	#work ul li a p	{
 		float: left;
 		padding:0.725em 0.75em;
 
 	}
 
-	.work li a:hover h3	{
+	#work li a:hover h3	{
 		margin-left: .5em;
 	}
 
